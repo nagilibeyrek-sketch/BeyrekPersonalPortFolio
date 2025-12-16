@@ -1,0 +1,20 @@
+/* Əvvəlki cavabda verilən bütün CSS kodunu bura kopyalayın. */
+/* Responsive dizayn və ümumi görünüş üçün vacibdir. */
+
+:root {
+    --primary-color: #007bff; /* Mavi */
+    --secondary-color: #6c757d; /* Boz */
+    --background-color: #f8f9fa; /* Açıq Boz/Ağ */
+    --text-color: #343a40; /* Tünd Boz */
+    --font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ... Qalan bütün CSS kodları ... */
+
+/* Responsive Dizayn Media Sorğuları daxil olmaqla, kod olduğu kimi qalır. */
