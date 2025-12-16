@@ -1,9 +1,9 @@
 /**
  * assets/js/main.js
- * Veb sayt üçün əsas JavaScript funksiyaları
+ * Main JavaScript functions for the website
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Portfolio Veb Saytı yükləndi. Bütün elementlər hazırdır!");
-    // Əlavə funksionallıq tələb olunarsa, bura əlavə edilə bilər.
+    console.log("Personal Portfolio Website loaded successfully!");
+    // Add interactive functionalities here if needed (e.g., mobile menu toggle).
 });
