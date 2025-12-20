@@ -10,7 +10,6 @@ This file documents the interaction with AI tools during the development of the 
 - Applying a pink-themed UI design
 - Fixing layout issues (footer, spacing, images)
 - Using Git, GitHub, and GitHub Pages
-- Enabling Jekyll for bonus points
 
 ## Purpose
 The AI assistant was used as a learning and guidance tool to help understand front-end development concepts and complete the assignment requirements.
