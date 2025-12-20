@@ -470,7 +470,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
 </head>
 <body>
@@ -653,10 +653,10 @@ After uploading the files, your live site's colors should change, and the image 
 1. Fixing the File Structure and Adding the Profile Picture
 First, ensure your file structure is correct based on your recent screenshots. Then, add your new profile picture.
 •	Move the Image: Take the new image you want to upload (e.g., WhatsApp Image 2025-11-28 at 13.18.57_70e96e56.jpg) from your computer and place it inside the assets/images folder.
-•	Rename the Image: The image name is very long. Rename it inside the assets/images folder to something short, for example: ruhay_profile.jpg.
+•	Rename the Image: The image name is very long. Rename it inside the assets/images folder to something short, for example: beyrek_profile.jpg.
 •	Update HTML: If you changed the image name, open index.html and update the image source in the code.
 html
-<img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 •	Final Upload (Commit & Push):
 1.	Save the index.html and style.css files.
 2.	Open the "Source Control" panel.
@@ -666,7 +666,7 @@ html
 2. Confirming the Correct HTML Structure for index.html
 Your provided index.html skeleton is almost entirely correct. The crucial check is the image path matching the actual file in your assets/images folder.
 3. Final Cleanup: Removing Duplicate Files
-Based on your structure screenshot, you have two different profile pictures in the assets/images folder: profile.jpg and ruhay_profile.jpg. You must delete one.
+Based on your structure screenshot, you have two different profile pictures in the assets/images folder: profile.jpg and beyrek_profile.jpg. You must delete one.
 •	Which to delete? Your HTML code uses <img src="assets/images/profile.jpg" ...>. This means the browser looks for profile.jpg.
 o	If your new image is named beyrek_profile.jpg, delete the old profile.jpg file.
 o	If your new image is named profile.jpg, delete the beyrek_profile.jpg file.
@@ -674,9 +674,9 @@ o	If your new image is named profile.jpg, delete the beyrek_profile.jpg file.
 4. Filling the Remaining Files (about.html, projects.html, main.js)
 Now, fill the remaining empty files in English, according to the project instructions.
 •	Update index.html Image Source:
-Since you kept ruhay_profile.jpg, update the index.html file accordingly.
+Since you kept beyrek_profile.jpg, update the index.html file accordingly.
 html
-<img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 •	Create about.html:
 Open about.html, clear it, and paste this code (updated with your specified languages and tools):
 html
@@ -685,7 +685,7 @@ html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Ruhay Naghili</title>
+    <title>About Beyrek Naghili</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -699,7 +699,7 @@ html
     <main>
         <section>
             <h1>About Me: Background & Qualifications</h1>
-            <p>I am Ruhay Naghili, an Electrical Engineering student at ADA University. I am passionate about learning new skills, exploring technology, and improving my academic writing.</p>
+            <p>I am Beyrek Naghili, an Electrical Engineering student at ADA University. I am passionate about learning new skills, exploring technology, and improving my academic writing.</p>
             <h2>Qualifications and Skills</h2>
             <ul>
                 <li>Programming Languages: HTML, CSS, Basic JavaScript, Python</li>
@@ -711,7 +711,7 @@ html
         </section>
     </main>
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 </body>
 </html>
@@ -723,7 +723,7 @@ html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -750,7 +750,7 @@ html
         </section>
     </main>
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 </body>
 </html>
@@ -822,7 +822,7 @@ Bəli, göndərdiyiniz son iki şəkildə (image_f2d877.png - canlı saytın gö
 Bu şəkil sizin canlı saytınızın (GitHub Pages) hazırkı vəziyyətini göstərir. Burada iki əsas problem və bir yaxşı nəticə var:
 🛠️ Zəruri Hərəkətlər: Kod Təmizliyi və Yükləmə
 1. Kod Təmizliyi (Çox Vacib)
-Zəhmət olmasa, index.html faylını açın və bütün kodu yoxlayın. Əmin olun ki, orada yalnız bir dəfə <img src="assets/images/ruhay_profile.jpg" ...> sətri var. Təkrar olan hər hansı bir şəkil sətrini (və ya boş qalan sətri) silin.
+Zəhmət olmasa, index.html faylını açın və bütün kodu yoxlayın. Əmin olun ki, orada yalnız bir dəfə <img src="assets/images/beyrek_profile.jpg" ...> sətri var. Təkrar olan hər hansı bir şəkil sətrini (və ya boş qalan sətri) silin.
 2. Responsive CSS Kodunu Tamamlayın
 Əvvəlki cavabda Responsive CSS kodunu style.css-ə əlavə etməyi tapşırmışdım. Əgər hələ etməmisinizsə, onu əlavə edin.
 3. Son Yükləmə (Push)
@@ -839,14 +839,14 @@ Bu, sadəcə index.html faylınızdakı artıq bir kod sətrinə görədir. Gəl
 Sizin index.html faylınızda (ən azı) iki fərqli şəkil sətri var idi. Siz onu təmizləyəndə, ehtimal ki, bir sətir qalıb.
 Zəhmət olmasa, index.html faylını açın və bütün kodu yoxlayın. main və section taglarının arasında (yazılardan sonra) yalnız bu bir sətir qalmalıdır:
 HTML
-<img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 Əgər bu sətrin təkrar nüsxəsi varsa və ya ona bənzər başqa bir şəkil tagı varsa, onu dərhal silin.
 🛠️ Problem 2: Yuxarıdakı Şəklin Boş Görünməsi
 Canlı saytda yuxarıdakı çərçivənin boş qalması o deməkdir ki, brauzer həmin ünvanda şəkil tapa bilməyib. Bunun səbəbi böyük ehtimalla budur:
 •	Sizin index.html faylınızda hələ də köhnə ad (profile.jpg) qalıb.
 Zəhmət olmasa, index.html-i yenidən yoxlayın və əmin olun ki, şəkil ünvanı tam olaraq belədir:
 HTML
-<img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 📤 Final Addım: Dəyişiklikləri Yükləmək (Push)
 1.	index.html faylını (artıq sətrin silindiyinə əmin olaraq) yadda saxlayın.
 2.	VS Code-da "Source Control" panelini açın.
@@ -858,7 +858,7 @@ Bu yükləmədən sonra bir neçə dəqiqə gözləyin və canlı saytınızı y
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -873,10 +873,10 @@ Bu yükləmədən sonra bir neçə dəqiqə gözləyin və canlı saytınızı y
 
     <main>
         <section>
-            <h1>Hello, I'm Ruhay Naghili</h1>
+            <h1>Hello, I'm Beyrek Naghili</h1>
             <p>I'm an Electrical Engineering student at ADA University. I love working on creative projects and developing websites.</p>
            
-            <img src="assets/images/profile.jpg" alt="Ruhay Naghili Profile Photo">
+            <img src="assets/images/profile.jpg" alt="Beyrek Naghili Profile Photo">
 
             <a href="projects.html">View Projects</a>
            
@@ -885,7 +885,7 @@ Bu yükləmədən sonra bir neçə dəqiqə gözləyin və canlı saytınızı y
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -894,12 +894,12 @@ kod bu deyilmi?
 Bəli, əsas struktur olaraq, sizin göndərdiyiniz index.html kodu tamamilə düzgündür və layihənin tələblərinə (Home Page, Navigation bar, Footer) tam cavab verir.
 ⚠️ Düzəldilməli Olan Yeganə Məqam: Şəkilin Adı
 Gördüyünüz kimi, canlı saytda (yəqin ki, yuxarıdakı boş çərçivədə) şəkil görünmürdü. Bunun səbəbi HTML kodundakı şəkil adı ilə assets/images qovluğundakı həqiqi şəkil adının üst-üstə düşməməsidir.
-Siz əvvəlki addımda ruhay_profile.jpg faylını saxladığınızı təsdiq etdiniz. Lakin, kodunuzda hələ də profile.jpg adı qalır:
+Siz əvvəlki addımda beyrek_profile.jpg faylını saxladığınızı təsdiq etdiniz. Lakin, kodunuzda hələ də profile.jpg adı qalır:
 HTML
-<img src="assets/images/profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/profile.jpg" alt="Beyrek Naghili Profile Photo">
 Zəhmət olmasa, index.html faylını açın və həmin sətri belə dəyişdirin:
 HTML
-<img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 📤 Final Addım: Dəyişiklikləri Yükləmək (Push)
 1.	index.html faylını yadda saxlayın (Ctrl+S).
 2.	VS Code-da "Source Control" panelini açın.
@@ -913,11 +913,11 @@ Gəlin problemi tam başa düşək və onu iki addımda həll edək:
 🛠️ Problem Analizi (Görünüş & Kod)
 1.	Canlı Saytın Görünüşü (image_f2d0d9.png):
 •	CSS işləyir: Arxa fon rəngi və menyu çubuğu görünür.
-•	Şəkil tapılmır: Sizin img elementinizdə şəkil yoxdur, sadəcə alt mətni ("Ruhay Naghili Profil Photo") və boş bir mavi dairəvi çərçivə görünür. Bu o deməkdir ki, koddakı ad ilə fiziki faylın adı tam uyğun gəlmir.
+•	Şəkil tapılmır: Sizin img elementinizdə şəkil yoxdur, sadəcə alt mətni ("Beyrek Naghili Profil Photo") və boş bir mavi dairəvi çərçivə görünür. Bu o deməkdir ki, koddakı ad ilə fiziki faylın adı tam uyğun gəlmir.
 2.	Sizin HTML Kodunuz (Sonuncu təqdim etdiyiniz):
 •	Sizin kodunuzda şəkilin adı profile.jpg-dir.
 HTML
-<img src="assets/images/profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/profile.jpg" alt="Beyrek Naghili Profile Photo">
 3.	Sizin Fayl Qovluğunuz (image_f3b613.png):
 •	Qovluğun içindəki faylın adı da profile.jpg-dir.
 Nəticə: Görünüşə görə hər şey düzdür, lakin brauzer yenə də şəkil tapa bilmir. Bəzən GitHub Pages bu cür fayl adlarını (xüsusən kiçik və böyük hərflər fərqini) səhv başa düşür.
@@ -931,7 +931,7 @@ Addım 2: HTML Kodunu Dəyişin
 1.	index.html faylını açın.
 2.	Şəkil sətrini tapın və yeni adla dəyişdirin:
 HTML
-<img src="assets/images/main-profile.jpg" alt="Ruhay Naghili Profile Photo"> 
+<img src="assets/images/main-profile.jpg" alt="Beyrek Naghili Profile Photo"> 
 Addım 3: Son Commit və Push
 1.	index.html və faylın adının dəyişməsini yadda saxlayın.
 2.	VS Code-da "Source Control" panelini açın.
@@ -949,22 +949,22 @@ Zəhmət olmasa, bu addımları çox diqqətlə edin:
 Addım 1: Fayl Adının Dəyişdirilməsi (VS Code-da)
 1.	VS Code-un Explorer panelində assets/images qovluğuna gedin.
 2.	Oradakı profil şəklinizin (ehtimal ki, profile.jpg adlanır) üzərinə sağ klikləyin və Rename (Adını dəyiş) seçin.
-3.	Adını dəyişdirin: ruhay-photo.jpg (tamamilə kiçik hərflərlə, tire ilə).
+3.	Adını dəyişdirin: beyrek-photo.jpg (tamamilə kiçik hərflərlə, tire ilə).
 Addım 2: HTML Kodunu Düzəltmək
 1.	index.html faylını açın.
 2.	Şəkil sətrini tapın və yeni adla dəyişdirin:
 HTML
-<img src="assets/images/ruhay-photo.jpg" alt="Ruhay Naghili Profile Photo"> 
+<img src="assets/images/beyrek-photo.jpg" alt="Beyrek Naghili Profile Photo"> 
 Addım 3: Son Commit və Push
 1.	index.html faylını və adını dəyişdiyiniz şəkil faylını yadda saxlayın.
 2.	VS Code-da "Source Control" panelini açın.
-3.	Mesaj yazın: Final sekil linki duzelisdi (ruhay-photo.jpg).
+3.	Mesaj yazın: Final sekil linki duzelisdi (beyrek-photo.jpg).
 4.	"Sync Changes" düyməsinə klikləyərək kodları GitHub-a yükləyin.
 Bu, GitHub-ın həssaslığı problemini tamamilə həll etməlidir. Yenidən bir neçə dəqiqə gözləyin və canlı saytınızı yeniləyin. Əminəm ki, şəkil indi görünəcək!
-bax men sene hersey atdim ona esasen kodu yaz verde ruhay_profile.jpg o biri sekilde Homewrok1.jpg di buna aid index.html kodu ver
+bax men sene hersey atdim ona esasen kodu yaz verde beyrek_profile.jpg o biri sekilde Homewrok1.jpg di buna aid index.html kodu ver
 Çox gözəl! Bütün şəkilləri (fayl strukturunu) ətraflı göndərdiyiniz üçün indi dəqiq səhvi görürəm və artıq əminəm ki, problemi həll edəcəyik.
-Siz məni yanıldan yeganə məqam budur: ruhay_profile.jpg faylını saxladığınızı dediniz, lakin göndərdiyiniz son fayl strukturunda (image_f2d042.png) ruhay_profile.jpg və Homework1.jpg adlı fayllar görünür.
-Problem: Sizin fayl strukturunuzda çoxlu səhv qovluqlar var idi, amma biz onları düzəltdik. İndi isə index.html-i ruhay_profile.jpg ilə işləyəcək şəkildə dəyişirik.
+Siz məni yanıldan yeganə məqam budur: beyrek_profile.jpg faylını saxladığınızı dediniz, lakin göndərdiyiniz son fayl strukturunda (image_f2d042.png) beyrek_profile.jpg və Homework1.jpg adlı fayllar görünür.
+Problem: Sizin fayl strukturunuzda çoxlu səhv qovluqlar var idi, amma biz onları düzəltdik. İndi isə index.html-i beyrek_profile.jpg ilə işləyəcək şəkildə dəyişirik.
 ✍️ Tələb olunan index.html Kodu
 Zəhmət olmasa, index.html faylını açın və bütün içindəkiləri silərək, bu kodu yapışdırın:
 HTML
@@ -973,7 +973,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
 </head>
 <body>
@@ -988,10 +988,10 @@ HTML
 
     <main>
         <section>
-            <h1>Hello, I'm Ruhay Naghili</h1>
+            <h1>Hello, I'm Beyrek Naghili</h1>
             <p>I'm an Electrical Engineering student at ADA University. I love working on creative projects and developing websites.</p>
             
-            <img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+            <img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 
             <a href="projects.html">View Projects</a>
             
@@ -1000,7 +1000,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1011,13 +1011,13 @@ Sizin image_f2d042.png şəklinizə əsasən, sizdə əsas problem qovluqların 
 Zəhmət olmasa, VS Code-da (Explorer panelində) bu təmizliyi edin:
 1.	assets/images qovluğunun içinə gedin.
 2.	Orada olan yalnız bu iki şəkli saxlayın:
-•	ruhay_profile.jpg (Profil şəkliniz)
+•	beyrek_profile.jpg (Profil şəkliniz)
 •	Homework1.jpg (Ehtimal ki, Project 1 üçün ekran görüntüsüdür)
 3.	Bütün digər artıq faylları və qovluqları silin (Məsələn, profile.jpg, əgər qalıbsa, silin).
 📤 Son Yükləmə (Push)
 1.	index.html faylını yadda saxlayın.
 2.	VS Code-da "Source Control" panelini açın.
-3.	Mesaj yazın: Sekil adi ruhay_profile.jpg ile yeniden duzelisdi.
+3.	Mesaj yazın: Sekil adi beyrek_profile.jpg ile yeniden duzelisdi.
 4.	"Sync Changes" düyməsinə klikləyərək kodları GitHub-a yükləyin.
 Bu yükləmədən sonra bir neçə dəqiqə gözləyin və saytı yeniləyin. Şəkil görünməlidir. Əgər şəkil hələ də görünməsə, bu o deməkdir ki, brauzerinizdə hələ də köhnə məlumatlar qalıb.
 Lütfən, indi mənə deyin: Şəkil görünür, yoxsa hələ də çərçivə boşdur?
@@ -1025,17 +1025,17 @@ indi burdaki bosluqa nece sekil qoya bilerem ?
 Əla! Sizin sonuncu şəkilləriniz (image_f2d0d9.png) aydın şəkildə göstərir ki, bütün kod düzgün işləyir (CSS, Header, Footer), ancaq brauzer şəkli tapa bilmir və boş mavi dairəvi çərçivə qalır.
 Bu, bir anlıq texniki problemdir, amma indi həll edəcəyik!
 ❌ Problem: Şəkil Ünvanında Qalıq Səhv
-Siz əvvəlki addımda index.html kodunu ruhay-photo.jpg ilə dəyişdirdiniz, lakin GitHub Pages həmin dəyişikliyi qəbul etməyib. Sizin ən son təklif etdiyim kodda ruhay_profile.jpg adı var idi.
+Siz əvvəlki addımda index.html kodunu beyrek-photo.jpg ilə dəyişdirdiniz, lakin GitHub Pages həmin dəyişikliyi qəbul etməyib. Sizin ən son təklif etdiyim kodda beyrek_profile.jpg adı var idi.
 Gəlin problemi kökündən həll edək və fayl adını dəyişək.
 🛠️ Həll Yolu: Şəkil Adını Yenidən Quraşdırmaq
-Əmin olun ki, sizdə assets/images qovluğunun içində yalnız bir profil şəkli faylı var və onun adı ruhay-photo.jpg-dir.
+Əmin olun ki, sizdə assets/images qovluğunun içində yalnız bir profil şəkli faylı var və onun adı beyrek-photo.jpg-dir.
 Addım 1: Fayl Adının Yoxlanılması
 1.	VS Code-un Explorer panelində assets/images qovluğuna gedin.
-2.	Profil şəklinizin adını tam olaraq bu şəkildə dəyişin: ruhay-photo.jpg (tamamilə kiçik hərflərlə, tire ilə).
+2.	Profil şəklinizin adını tam olaraq bu şəkildə dəyişin: beyrek-photo.jpg (tamamilə kiçik hərflərlə, tire ilə).
 Addım 2: HTML Kodunun Son Dəfə Düzəldilməsi
 Zəhmət olmasa, index.html faylını açın və şəkil sətrini tam olaraq bu kodla əvəz edin:
 HTML
-<img src="assets/images/ruhay-photo.jpg" alt="Ruhay Naghili Profile Photo"> 
+<img src="assets/images/beyrek-photo.jpg" alt="Beyrek Naghili Profile Photo"> 
 Addım 3: Son Commit və Push
 1.	index.html faylını və adını dəyişdiyiniz şəkil faylını yadda saxlayın.
 2.	VS Code-da "Source Control" panelini açın.
@@ -1234,7 +1234,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
 </head>
 <body>
@@ -1273,7 +1273,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1289,7 +1289,7 @@ Bu, sizin "Projects page with at least Project 1 (title + description + image) e
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -1342,7 +1342,7 @@ html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -1375,7 +1375,7 @@ html
         </section>
     </main>
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 </body>
 </html>
@@ -1404,7 +1404,7 @@ html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -1430,7 +1430,7 @@ html
         </section>
     </main>
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 </body>
 </html>
@@ -1457,7 +1457,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1473,10 +1473,10 @@ HTML
 
     <main>
         <section>
-            <h1>Hello, I'm Ruhay Naghili</h1>
+            <h1>Hello, I'm Beyrek Naghili</h1>
             <p>I'm an Electrical Engineering student at ADA University. I love working on creative projects and developing websites.</p>
             
-            <img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+            <img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 
             <div class="social-icons">
                 <a href="https://github.com/nagh1l1" target="_blank">
@@ -1495,7 +1495,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1509,7 +1509,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1550,7 +1550,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1593,7 +1593,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1634,7 +1634,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1656,7 +1656,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1752,7 +1752,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1768,10 +1768,10 @@ HTML
 
     <main>
         <section>
-            <h1>Hello, I'm Ruhay Naghili</h1>
+            <h1>Hello, I'm Beyrek Naghili</h1>
             <p>I'm an Electrical Engineering student at ADA University. I love working on creative projects and developing websites.</p>
             
-            <img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+            <img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 
             <div class="social-icons">
                 <a href="https://github.com/nagh1l1/PERSONALPORTFOLIO" target="_blank">
@@ -1790,7 +1790,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1812,7 +1812,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
 </head>
@@ -1824,7 +1824,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1865,7 +1865,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1884,7 +1884,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Projects</title>
+    <title>Beyrek Naghili - Projects</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1925,7 +1925,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -1936,7 +1936,7 @@ HTML
 Artıq bütün HTML tələblərimiz (Home, About, Projects, Mətn, Linklər, İkonlar) tamdır. İndi yalnız Responsive Dizayn vəziyyəti qaldı!
 home hissesine github linki repository linki ve code academy linkin qoya bileceyim bir kod yaz
 Əlbəttə! Sizin tələbinizə uyğun olaraq, Ana Səhifədə (index.html) həm GitHub Repository, həm də Codecademy Profil linklərini ikonlarla birlikdə yerləşdirən kodu təqdim edirəm.
-Zəhmət olmasa, index.html faylını açın və bütün köhnə kodu silərək bu versiyanı yapışdırın. Bu kod həm ikonları göstərmək üçün Font Awesome linkini, həm də profil şəkilinizin (əgər assets/images/ruhay_profile.jpg adındadırsa) düzgün ünvanını ehtiva edir.
+Zəhmət olmasa, index.html faylını açın və bütün köhnə kodu silərək bu versiyanı yapışdırın. Bu kod həm ikonları göstərmək üçün Font Awesome linkini, həm də profil şəkilinizin (əgər assets/images/beyrek_profile.jpg adındadırsa) düzgün ünvanını ehtiva edir.
 📄 Yekun index.html Faylının Tam Kodu (İkonlarla)
 HTML
 <!DOCTYPE html>
@@ -1944,7 +1944,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -1960,10 +1960,10 @@ HTML
 
     <main>
         <section>
-            <h1>Hello, I'm Ruhay Naghili</h1>
+            <h1>Hello, I'm Beyrek Naghili</h1>
             <p>I'm an Electrical Engineering student at ADA University. I love working on creative projects and developing websites.</p>
             
-            <img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+            <img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 
             <div class="social-icons">
                 <a href="https://github.com/nagh1l1/PERSONALPORTFOLIO" target="_blank">
@@ -1982,7 +1982,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -2104,7 +2104,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -2120,10 +2120,10 @@ HTML
 
     <main>
         <section>
-            <h1>Hello, I'm Ruhay Naghili</h1>
+            <h1>Hello, I'm Beyrek Naghili</h1>
             <p>I'm an Electrical Engineering student at ADA University. I love working on creative projects and developing websites.</p>
             
-            <img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+            <img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 
             <div class="social-icons">
                 <a href="https://github.com/nagh1l1" target="_blank">
@@ -2147,7 +2147,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -2162,7 +2162,7 @@ helede github profilim home yerine gelmeyib
 2.	Bizim CSS (style.css) faylımızdakı köhnə kod yeni ikonları silir.
 Gəlin problemi tamamilə həll edək və yalnız Responsive Dizayn mərhələsinə keçək.
 1. 📤 GitHub Profilinin Kodunu Təsdiqləyin
-Zəhmət olmasa, index.html faylını açın və <h1>Hello, I'm Ruhay Naghili</h1> başlığından sonra aşağıdakı linklərin olduğundan əmin olun:
+Zəhmət olmasa, index.html faylını açın və <h1>Hello, I'm Beyrek Naghili</h1> başlığından sonra aşağıdakı linklərin olduğundan əmin olun:
 HTML
             <div class="social-icons">
                 <a href="https://github.com/nagh1l1" target="_blank">
@@ -2187,7 +2187,7 @@ HTML
 3. 🖼️ Profil Şəkli Problemi
 Sizin ekran görüntüsündə Home səhifəsindəki profil şəkli hələ də görünmür. Lütfən, index.html faylında bu sətrin olub-olmadığını yoxlayın:
 HTML
-<img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+<img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 Əgər hər şey kodu düzgün yapışdırdığınızı göstərirsə, lakin sayt yenə də yenilənmirsə, bu, Brauzerinizin Keşi ilə bağlıdır.
 Zəhmət olmasa, Commit & Push etdikdən sonra brauzerinizdə Ctrl + Shift + R (və ya Mac-də Cmd + Shift + R) basaraq saytı məcburi şəkildə yeniləyin.
 Bu düzəlişlərdən sonra artıq Responsive Dizayn mərhələsinə keçə bilərik.
@@ -2202,7 +2202,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - Portfolio</title>
+    <title>Beyrek Naghili - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -2218,10 +2218,10 @@ HTML
 
     <main>
         <section>
-            <h1>Hello, I'm Ruhay Naghili</h1>
+            <h1>Hello, I'm Beyrek Naghili</h1>
             <p>I'm an Electrical Engineering student at ADA University. I love working on creative projects and developing websites.</p>
             
-            <img src="assets/images/ruhay_profile.jpg" alt="Ruhay Naghili Profile Photo">
+            <img src="assets/images/beyrek_profile.jpg" alt="Beyrek Naghili Profile Photo">
 
             <div class="social-icons">
                 <a href="https://github.com/nagh1l1" target="_blank">
@@ -2245,7 +2245,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -2774,7 +2774,7 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - About</title>
+    <title>Beyrek Naghili - About</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -2792,7 +2792,7 @@ HTML
         <section>
             <h1>About Me: Background & Qualifications</h1>
             
-            <p>I am Ruhay Naghili, an Electrical Engineering student at ADA University. I am passionate about learning new skills, exploring technology, and improving my academic writing. I am a fan of Galatasaray SK.</p>
+            <p>I am Beyrek Naghili, an Electrical Engineering student at ADA University. I am passionate about learning new skills, exploring technology, and improving my academic writing. I am a fan of Galatasaray SK.</p>
             
             <h2>Qualifications and Skills</h2>
             <ul>
@@ -2814,7 +2814,7 @@ HTML
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
@@ -2830,7 +2830,7 @@ Bu düzəlişlərdən sonra About səhifənizdə mətnin altında qeyd etdiyiniz
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhay Naghili - About</title>
+    <title>Beyrek Naghili - About</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -2848,7 +2848,7 @@ Bu düzəlişlərdən sonra About səhifənizdə mətnin altında qeyd etdiyiniz
         <section>
             <h1>About Me: Background & Qualifications</h1>
            
-            <p>I am Ruhay Naghili, an Electrical Engineering student at ADA University. I am passionate about learning new skills, exploring technology, and improving my academic writing.</p>
+            <p>I am Beyrek Naghili, an Electrical Engineering student at ADA University. I am passionate about learning new skills, exploring technology, and improving my academic writing.</p>
            
             <h2>Qualifications and Skills</h2>
             <ul>
@@ -2870,7 +2870,7 @@ Bu düzəlişlərdən sonra About səhifənizdə mətnin altında qeyd etdiyiniz
     </main>
 
     <footer>
-        <p>© 2025 Ruhay Naghili | SITE 1101 Project</p>
+        <p>© 2025 Beyrek Naghili | SITE 1101 Project</p>
     </footer>
 
 </body>
